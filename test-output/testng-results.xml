@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78117" started-at="2021-08-08T03:30:58Z" finished-at="2021-08-08T03:32:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78117" started-at="2021-08-08T03:30:58Z" finished-at="2021-08-08T03:32:16Z">
+      <class name="com.selenium.testcases.FlightSearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.testcases.FlightSearchPageTest@5419f379]" name="setUp" is-config="true" duration-ms="16545" started-at="2021-08-07T23:30:58Z" finished-at="2021-08-07T23:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchForFlights()[pri:0, instance:com.selenium.testcases.FlightSearchPageTest@5419f379]" name="searchForFlights" duration-ms="21945" started-at="2021-08-07T23:31:15Z" finished-at="2021-08-07T23:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForFlights -->
+        <test-method status="PASS" signature="validateFlightResults()[pri:0, instance:com.selenium.testcases.FlightSearchPageTest@5419f379]" name="validateFlightResults" duration-ms="36806" started-at="2021-08-07T23:31:37Z" depends-on-methods="com.selenium.testcases.FlightSearchPageTest.searchForFlights" finished-at="2021-08-07T23:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlightResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.testcases.FlightSearchPageTest@5419f379]" name="tearDown" is-config="true" duration-ms="2777" started-at="2021-08-07T23:32:13Z" finished-at="2021-08-07T23:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.testcases.FlightSearchPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
